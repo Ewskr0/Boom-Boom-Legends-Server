@@ -1,0 +1,13 @@
+*.js
+
+.idea/
+node_modules/
+build/
+docs/
+
+.vs
+bin/
+obj/
+packages/
+
+yarn-error.log

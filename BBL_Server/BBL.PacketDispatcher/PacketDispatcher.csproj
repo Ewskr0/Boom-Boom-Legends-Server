@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastExpressionCompiler" Version="1.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BBL.ByteBuffer\ByteBuffer.csproj" />
+    <ProjectReference Include="..\BBL.Packages\Packages.csproj" />
+  </ItemGroup>
+
+</Project>
